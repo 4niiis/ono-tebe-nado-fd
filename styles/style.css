@@ -70,10 +70,6 @@ footer {
   list-style: circle;
 }
 
-.nax-links {
-  
-}
-
 .logo-black {
   display: block;
   grid-column: 2/3;
@@ -91,10 +87,6 @@ footer {
   margin: auto;
   margin-left: 188px;
   line-height: 24.3px;
-}
-
-.address_container {
-  
 }
 
 .address_ul {
@@ -310,10 +302,6 @@ button {
 .about__logo-image {
   width: 148px;
   height: 114px;
-}
-
-.about__text-column {
-
 }
 
 .about__title {
