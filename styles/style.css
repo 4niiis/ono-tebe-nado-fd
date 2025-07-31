@@ -202,7 +202,7 @@ button {
   flex-wrap: wrap;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
   max-width: 334px;
   min-height: 596px;
 }
@@ -261,8 +261,10 @@ button {
 }
 
 .more-learn {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  margin-top: 30px;
   padding-left: 40px;
   text-underline-offset: 4px;
 }
@@ -343,7 +345,7 @@ footer {
   padding-left: 50px;
 }
 
-.footer__menu{
+.footer__menu {
   grid-column: 2/3;
 }
 
