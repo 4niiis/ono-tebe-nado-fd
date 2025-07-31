@@ -213,8 +213,7 @@ button {
 }
 
 .card-link {
-  text-decoration: none; 
-
+  text-decoration: none;
 }
 
 .card {
@@ -336,8 +335,7 @@ button {
 footer {
   padding-top: 180px;
   display: grid;
-  grid-template-columns: 
-  repeat(3,1fr); 
+  grid-template-columns:repeat(3,1fr);
   justify-items: center;
 }
 
