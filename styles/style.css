@@ -4,20 +4,7 @@ body {
   background-color: white;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-
-h1, .cover, article, button /*ВОЗМОЖНО НЕ АРТАЙКЛ! вниз кода??*/ {
+h1, .cover, article, button {
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -29,8 +16,8 @@ h1, .cover, article, button /*ВОЗМОЖНО НЕ АРТАЙКЛ! вниз к�
 }
 
 header {
-  min-width: 1100px;
-  min-height: 293px;
+  padding-top: 92px;
+  padding-bottom: 92px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   grid-template-rows: auto;
@@ -141,17 +128,16 @@ h1 {
 }
 
 .aligned-text_center {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
   margin-top: 20px;
-  padding-left: 380.5px;
-  padding-right: 380.5px;
 }
 
 .aligned-text_right {
   text-align: right;
+  margin-right: 20px;
   margin-top: 20px;
-  padding-left: 663px;
-  padding-right: 50px;
 }
 
 .description {
@@ -174,17 +160,16 @@ button,
 }
 
 .auction-cover {
-  min-width: 637px;
-  min-height: 28px;
   word-spacing: 18.5px;
 }
 
 button {
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   border: 1px solid #FFFFFF;
   background-color: transparent;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .lots {
@@ -315,7 +300,7 @@ button {
 }
 
 .about__title {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
   padding-top: 40px;
@@ -324,7 +309,7 @@ button {
 }
 
 .about__text {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   display: flex;
   flex-direction: column;
