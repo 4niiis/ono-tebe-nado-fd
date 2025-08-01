@@ -70,6 +70,10 @@ footer {
   list-style: circle;
 }
 
+.home-link {
+  list-style:none
+}
+
 .logo-black {
   display: block;
   grid-column: 2/3;
@@ -81,12 +85,15 @@ footer {
   height: 105px;
 }
 
+.address {
+  line-height: 24.3px;
+  font-style: normal;
+  text-underline-offset: 3px;
+}
+
 .address_ {
   grid-column: 3/4;
-  max-width: 240px;
-  margin: auto;
   margin-left: 188px;
-  line-height: 24.3px;
 }
 
 .address_ul {
@@ -94,6 +101,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  
 }
 
 .cover {
@@ -127,19 +135,19 @@ h1 {
   display: block;
 }
 
-.ono {
+.aligned-text_left {
   padding-top: 165px;
   padding-left: 50px;
 }
 
-.tebe {
+.aligned-text_center {
   text-align: center;
   margin-top: 20px;
   padding-left: 380.5px;
   padding-right: 380.5px;
 }
 
-.nado {
+.aligned-text_right {
   text-align: right;
   margin-top: 20px;
   padding-left: 663px;
@@ -334,6 +342,7 @@ button {
 
 footer {
   padding-top: 180px;
+  padding-bottom: 82px;
   display: grid;
   grid-template-columns:repeat(3,1fr);
   justify-items: center;
@@ -341,7 +350,6 @@ footer {
 
 .footer__address {
   grid-column: 1/2;
-  line-height: 24.5px;
   padding-left: 50px;
 }
 
