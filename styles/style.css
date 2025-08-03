@@ -32,11 +32,11 @@ footer {
   font-style: normal;
 }
 
-.nav-links {
+.header__link {
   text-underline-offset: 4px;
 }
 
-.menu-header {
+.header__menu {
   grid-column: 1/2;
   max-width: min-content;
   margin: auto;
@@ -47,18 +47,27 @@ footer {
   gap: 31.48px;
   padding-left: 10px;
 }
-.menu-container-main-link {
+
+.menu-container-header-link {
   min-width: max-content;
 }
 
-.container-main-link-ul {
+.header__links-list {
   display: flex;
   gap: 35px;
   list-style: circle;
 }
 
-.home-link {
+.header__links-list-item {
+
+}
+
+.header__links-list-item_no-bullit {
   list-style:none
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .logo-black {
@@ -356,6 +365,10 @@ footer {
   list-style: none;
   display: flex;
   flex-direction: column;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
