@@ -58,10 +58,6 @@ footer {
   list-style: circle;
 }
 
-.header__links-list-item {
-
-}
-
 .header__links-list-item_no-bullit {
   list-style:none
 }
